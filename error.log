@@ -1,0 +1,108 @@
+2026-05-09 10:13:11 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:46:39 [error]: ValidationError: User validation failed: password: Path `password` (`mohd001`, length 7) is shorter than the minimum allowed length (8).
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:47:32 [error]: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\models\User.js:84:3)
+    at async Kareem.execPre (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\kareem\index.js:61:24)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:397:5)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:50:49 [error]: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\models\User.js:84:3)
+    at async Kareem.execPre (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\kareem\index.js:61:24)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:397:5)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:57:54 [error]: ValidationError: User validation failed: username: Username can only contain letters, numbers and underscores, password: Path `password` (`john090`, length 7) is shorter than the minimum allowed length (8).
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 11:01:08 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:02:02 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:05:58 [error]: TypeError: bs58.encode is not a function
+    at generateWallet (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\services\solanaService.js:21:33)
+    at exports.simpleLogin (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:37:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-05-09 11:06:15 [error]: ValidationError: User validation failed: username: Username can only contain letters, numbers and underscores, email: Invalid email address
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.simpleLogin (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:14)
+2026-05-09 11:20:38 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:52:49 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e847d0sm39242085ad.62 - gsmtp
+2026-05-09 11:59:02 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e35ba2sm45118475ad.50 - gsmtp
+2026-05-09 11:59:28 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e6199csm56350485ad.55 - gsmtp
+2026-05-19 11:35:39 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:35:40 [error]: Error: Route not found: /favicon.ico
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:03 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:13 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:14 [error]: Error: Route not found: /favicon.ico
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:49:46 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-83f19c7788esm20478079b3a.42 - gsmtp
+2026-05-19 11:50:11 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c82bb0ff0edsm15950920a12.20 - gsmtp

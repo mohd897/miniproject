@@ -1,0 +1,792 @@
+2026-05-09 10:13:11 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:38:27 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:38:27 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 10:40:00 [debug]: Balance cache refresh tick
+2026-05-09 10:43:54 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:43:54 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 10:43:57 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:56612/
+2026-05-09 10:43:57 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 10:43:57 [info]: 🌐 Network: devnet
+2026-05-09 10:43:57 [info]: 📡 Socket.io enabled
+2026-05-09 10:43:57 [info]: ⏱  CRON jobs scheduled
+2026-05-09 10:44:48 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:44:48 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 10:45:00 [debug]: Balance cache refresh tick
+2026-05-09 10:45:00 [info]: In-Memory MongoDB Connected (Persistent): mongodb://127.0.0.1:56638/
+2026-05-09 10:45:00 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 10:45:00 [info]: 🌐 Network: devnet
+2026-05-09 10:45:00 [info]: 📡 Socket.io enabled
+2026-05-09 10:45:00 [info]: ⏱  CRON jobs scheduled
+2026-05-09 10:46:39 [error]: ValidationError: User validation failed: password: Path `password` (`mohd001`, length 7) is shorter than the minimum allowed length (8).
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:46:39 [info]: ::1 - - [09/May/2026:05:16:39 +0000] "POST /api/auth/register HTTP/1.1" 400 1039 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 10:47:32 [error]: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\models\User.js:84:3)
+    at async Kareem.execPre (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\kareem\index.js:61:24)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:397:5)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:47:32 [info]: ::1 - - [09/May/2026:05:17:32 +0000] "POST /api/auth/register HTTP/1.1" 500 902 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 10:50:00 [debug]: Balance cache refresh tick
+2026-05-09 10:50:49 [error]: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\models\User.js:84:3)
+    at async Kareem.execPre (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\kareem\index.js:61:24)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:397:5)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:50:49 [info]: ::1 - - [09/May/2026:05:20:49 +0000] "POST /api/auth/register HTTP/1.1" 500 902 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 10:51:52 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 10:51:52 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 10:51:59 [info]: In-Memory MongoDB Connected (Persistent): mongodb://127.0.0.1:56736/
+2026-05-09 10:51:59 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 10:51:59 [info]: 🌐 Network: devnet
+2026-05-09 10:51:59 [info]: 📡 Socket.io enabled
+2026-05-09 10:51:59 [info]: ⏱  CRON jobs scheduled
+2026-05-09 10:55:00 [debug]: Balance cache refresh tick
+2026-05-09 10:57:54 [error]: ValidationError: User validation failed: username: Username can only contain letters, numbers and underscores, password: Path `password` (`john090`, length 7) is shorter than the minimum allowed length (8).
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.register (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:18)
+2026-05-09 10:57:54 [info]: ::1 - - [09/May/2026:05:27:54 +0000] "POST /api/auth/register HTTP/1.1" 400 1169 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 10:58:09 [info]: ::1 - - [09/May/2026:05:28:09 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 10:58:21 [info]: ::1 - - [09/May/2026:05:28:21 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:00:00 [debug]: Balance cache refresh tick
+2026-05-09 11:00:56 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:00:56 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:01:08 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:01:51 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:01:51 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:02:02 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:05:00 [debug]: Balance cache refresh tick
+2026-05-09 11:05:00 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:05:00 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:05:05 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:56996/
+2026-05-09 11:05:05 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:05:05 [info]: 🌐 Network: devnet
+2026-05-09 11:05:05 [info]: 📡 Socket.io enabled
+2026-05-09 11:05:05 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:05:58 [error]: TypeError: bs58.encode is not a function
+    at generateWallet (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\services\solanaService.js:21:33)
+    at exports.simpleLogin (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:37:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-05-09 11:05:58 [info]: ::1 - - [09/May/2026:05:35:58 +0000] "POST /api/auth/simple-login HTTP/1.1" 500 459 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:06:15 [error]: ValidationError: User validation failed: username: Username can only contain letters, numbers and underscores, email: Invalid email address
+    at model.validate (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.$__save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async exports.simpleLogin (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\controllers\authController.js:28:14)
+2026-05-09 11:06:15 [info]: ::1 - - [09/May/2026:05:36:15 +0000] "POST /api/auth/simple-login HTTP/1.1" 400 1041 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:08:24 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:08:24 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:08:28 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:57121/
+2026-05-09 11:08:28 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:08:28 [info]: 🌐 Network: devnet
+2026-05-09 11:08:28 [info]: 📡 Socket.io enabled
+2026-05-09 11:08:28 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:09:15 [info]: ::1 - - [09/May/2026:05:39:15 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:09:16 [info]: ::1 - - [09/May/2026:05:39:16 +0000] "GET /api/auth/me HTTP/1.1" 200 3383 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:10:00 [debug]: Balance cache refresh tick
+2026-05-09 11:10:19 [info]: ::1 - - [09/May/2026:05:40:19 +0000] "GET /api/wallet/stats HTTP/1.1" 200 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:10:19 [info]: ::1 - - [09/May/2026:05:40:19 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 101 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:10:19 [info]: ::1 - - [09/May/2026:05:40:19 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:10:19 [info]: ::1 - - [09/May/2026:05:40:19 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:20 [info]: ::1 - - [09/May/2026:05:41:20 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 125 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:21 [info]: ::1 - - [09/May/2026:05:41:21 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:26 [info]: ::1 - - [09/May/2026:05:41:26 +0000] "GET /api/auth/sessions HTTP/1.1" 200 639 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:27 [info]: ::1 - - [09/May/2026:05:41:27 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:28 [info]: ::1 - - [09/May/2026:05:41:28 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:28 [info]: ::1 - - [09/May/2026:05:41:28 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:29 [info]: ::1 - - [09/May/2026:05:41:29 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:11:29 [info]: ::1 - - [09/May/2026:05:41:29 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:13:44 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:13:44 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:13:47 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:57317/
+2026-05-09 11:13:47 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:13:47 [info]: 🌐 Network: devnet
+2026-05-09 11:13:47 [info]: 📡 Socket.io enabled
+2026-05-09 11:13:47 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:14:54 [info]: ::1 - - [09/May/2026:05:44:54 +0000] "GET /api/auth/me HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:14:54 [info]: ::1 - - [09/May/2026:05:44:54 +0000] "GET /api/auth/me HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:14:55 [info]: ::1 - - [09/May/2026:05:44:55 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:14:55 [info]: ::1 - - [09/May/2026:05:44:55 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:00 [debug]: Balance cache refresh tick
+2026-05-09 11:15:02 [info]: ::1 - - [09/May/2026:05:45:02 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:03 [info]: ::1 - - [09/May/2026:05:45:03 +0000] "GET /api/auth/me HTTP/1.1" 200 3339 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:03 [info]: ::1 - - [09/May/2026:05:45:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:03 [info]: ::1 - - [09/May/2026:05:45:03 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:03 [info]: ::1 - - [09/May/2026:05:45:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:03 [info]: ::1 - - [09/May/2026:05:45:03 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:25 [info]: ::1 - - [09/May/2026:05:45:25 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:25 [info]: ::1 - - [09/May/2026:05:45:25 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:26 [info]: ::1 - - [09/May/2026:05:45:26 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:26 [info]: ::1 - - [09/May/2026:05:45:26 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:26 [info]: ::1 - - [09/May/2026:05:45:26 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:15:28 [info]: ::1 - - [09/May/2026:05:45:28 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0"
+2026-05-09 11:18:00 [info]: ::1 - - [09/May/2026:05:48:00 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:18:00 [info]: ::1 - - [09/May/2026:05:48:00 +0000] "GET /api/auth/me HTTP/1.1" 200 3398 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:18:01 [info]: ::1 - - [09/May/2026:05:48:01 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:18:02 [info]: ::1 - - [09/May/2026:05:48:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:18:02 [info]: ::1 - - [09/May/2026:05:48:02 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:18:02 [info]: ::1 - - [09/May/2026:05:48:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:20:26 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:20:26 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:20:38 [error]: In-Memory DB failed: Instance failed to start within 10000ms
+2026-05-09 11:28:37 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:28:37 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:28:40 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:57959/
+2026-05-09 11:28:40 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:28:40 [info]: 🌐 Network: devnet
+2026-05-09 11:28:40 [info]: 📡 Socket.io enabled
+2026-05-09 11:28:40 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:29:28 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:29:28 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:29:31 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:57988/
+2026-05-09 11:29:31 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:29:31 [info]: 🌐 Network: devnet
+2026-05-09 11:29:31 [info]: 📡 Socket.io enabled
+2026-05-09 11:29:31 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:30:00 [debug]: Balance cache refresh tick
+2026-05-09 11:32:01 [info]: ::1 - - [09/May/2026:06:02:01 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:01 [info]: ::1 - - [09/May/2026:06:02:01 +0000] "GET /api/auth/me HTTP/1.1" 200 3355 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:02 [info]: ::1 - - [09/May/2026:06:02:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:02 [info]: ::1 - - [09/May/2026:06:02:02 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:02 [info]: ::1 - - [09/May/2026:06:02:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:02 [info]: ::1 - - [09/May/2026:06:02:02 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:06 [info]: ::1 - - [09/May/2026:06:02:06 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:11 [info]: ::1 - - [09/May/2026:06:02:11 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:12 [info]: ::1 - - [09/May/2026:06:02:12 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:13 [info]: ::1 - - [09/May/2026:06:02:13 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:13 [info]: ::1 - - [09/May/2026:06:02:13 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:14 [info]: ::1 - - [09/May/2026:06:02:14 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:15 [info]: ::1 - - [09/May/2026:06:02:15 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:16 [info]: ::1 - - [09/May/2026:06:02:16 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:17 [info]: ::1 - - [09/May/2026:06:02:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:32:17 [info]: ::1 - - [09/May/2026:06:02:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 95 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:05 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:34:06 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:34:08 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:58106/
+2026-05-09 11:34:08 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:34:08 [info]: 🌐 Network: devnet
+2026-05-09 11:34:08 [info]: 📡 Socket.io enabled
+2026-05-09 11:34:08 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "GET /api/wallet/stats HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "GET /api/wallet/stats HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:34:38 [info]: ::1 - - [09/May/2026:06:04:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 401 51 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:00 [debug]: Balance cache refresh tick
+2026-05-09 11:35:03 [info]: ::1 - - [09/May/2026:06:05:03 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:03 [info]: ::1 - - [09/May/2026:06:05:03 +0000] "GET /api/auth/me HTTP/1.1" 200 3399 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:03 [info]: ::1 - - [09/May/2026:06:05:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:03 [info]: ::1 - - [09/May/2026:06:05:03 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:03 [info]: ::1 - - [09/May/2026:06:05:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:04 [info]: ::1 - - [09/May/2026:06:05:04 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:09 [info]: ::1 - - [09/May/2026:06:05:09 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:09 [info]: ::1 - - [09/May/2026:06:05:09 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "GET /api/auth/me HTTP/1.1" 200 3464 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "GET /api/wallet/stats HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:40 [info]: ::1 - - [09/May/2026:06:05:40 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:48 [info]: ::1 - - [09/May/2026:06:05:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:48 [info]: ::1 - - [09/May/2026:06:05:48 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:48 [info]: ::1 - - [09/May/2026:06:05:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:35:49 [info]: ::1 - - [09/May/2026:06:05:49 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:14 [info]: ::1 - - [09/May/2026:06:06:14 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:14 [info]: ::1 - - [09/May/2026:06:06:14 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:16 [info]: ::1 - - [09/May/2026:06:06:16 +0000] "GET /api/auth/sessions HTTP/1.1" 200 1204 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:16 [info]: ::1 - - [09/May/2026:06:06:16 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:19 [info]: ::1 - - [09/May/2026:06:06:19 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:19 [info]: ::1 - - [09/May/2026:06:06:19 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:19 [info]: ::1 - - [09/May/2026:06:06:19 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:36:19 [info]: ::1 - - [09/May/2026:06:06:19 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:07 [info]: ::1 - - [09/May/2026:06:07:07 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:28 [info]: ::1 - - [09/May/2026:06:07:28 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "GET /api/auth/me HTTP/1.1" 200 3464 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:37:32 [info]: ::1 - - [09/May/2026:06:07:32 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:40:00 [debug]: Balance cache refresh tick
+2026-05-09 11:42:51 [info]: ::1 - - [09/May/2026:06:12:51 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:42:51 [info]: ::1 - - [09/May/2026:06:12:51 +0000] "GET /api/auth/me HTTP/1.1" 200 3464 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:42:52 [info]: ::1 - - [09/May/2026:06:12:52 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:42:52 [info]: ::1 - - [09/May/2026:06:12:52 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:42:52 [info]: ::1 - - [09/May/2026:06:12:52 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:42:52 [info]: ::1 - - [09/May/2026:06:12:52 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:03 [info]: ::1 - - [09/May/2026:06:13:03 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:03 [info]: ::1 - - [09/May/2026:06:13:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:03 [info]: ::1 - - [09/May/2026:06:13:03 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:03 [info]: ::1 - - [09/May/2026:06:13:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:59 [info]: ::1 - - [09/May/2026:06:13:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:59 [info]: ::1 - - [09/May/2026:06:13:59 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:59 [info]: ::1 - - [09/May/2026:06:13:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:43:59 [info]: ::1 - - [09/May/2026:06:13:59 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:18 [info]: ::1 - - [09/May/2026:06:14:18 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:18 [info]: ::1 - - [09/May/2026:06:14:18 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:18 [info]: ::1 - - [09/May/2026:06:14:18 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:19 [info]: ::1 - - [09/May/2026:06:14:19 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:59 [info]: ::1 - - [09/May/2026:06:14:59 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:44:59 [info]: ::1 - - [09/May/2026:06:14:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:45:00 [debug]: Balance cache refresh tick
+2026-05-09 11:45:00 [info]: ::1 - - [09/May/2026:06:15:00 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:45:00 [info]: ::1 - - [09/May/2026:06:15:00 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:45:02 [info]: ::1 - - [09/May/2026:06:15:02 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 126 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:46 [info]: ::1 - - [09/May/2026:06:18:46 +0000] "GET /api/auth/sessions HTTP/1.1" 200 1769 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:46 [info]: ::1 - - [09/May/2026:06:18:46 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:57 [info]: ::1 - - [09/May/2026:06:18:57 +0000] "DELETE /api/auth/sessions/69fed06341708fbc46b12098 HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:57 [info]: ::1 - - [09/May/2026:06:18:57 +0000] "GET /api/auth/sessions HTTP/1.1" 200 1204 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:59 [info]: ::1 - - [09/May/2026:06:18:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:59 [info]: ::1 - - [09/May/2026:06:18:59 +0000] "GET /api/wallet/stats HTTP/1.1" 200 196 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:48:59 [info]: ::1 - - [09/May/2026:06:18:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:00 [info]: ::1 - - [09/May/2026:06:19:00 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:03 [info]: ::1 - - [09/May/2026:06:19:03 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:03 [info]: ::1 - - [09/May/2026:06:19:03 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:06 [info]: ::1 - - [09/May/2026:06:19:06 +0000] "DELETE /api/auth/sessions/69fecf2441708fbc46b12097 HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:06 [info]: ::1 - - [09/May/2026:06:19:06 +0000] "GET /api/auth/sessions HTTP/1.1" 200 639 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:07 [info]: ::1 - - [09/May/2026:06:19:07 +0000] "DELETE /api/auth/sessions/69fece8f41708fbc46b12094 HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:07 [info]: ::1 - - [09/May/2026:06:19:07 +0000] "GET /api/auth/sessions HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:11 [info]: ::1 - - [09/May/2026:06:19:11 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:11 [info]: ::1 - - [09/May/2026:06:19:11 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:11 [info]: ::1 - - [09/May/2026:06:19:11 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:12 [info]: ::1 - - [09/May/2026:06:19:12 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:17 [info]: ::1 - - [09/May/2026:06:19:17 +0000] "GET /api/auth/me HTTP/1.1" 200 3477 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:17 [info]: ::1 - - [09/May/2026:06:19:17 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:17 [info]: ::1 - - [09/May/2026:06:19:17 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:17 [info]: ::1 - - [09/May/2026:06:19:17 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:17 [info]: ::1 - - [09/May/2026:06:19:17 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:18 [info]: ::1 - - [09/May/2026:06:19:18 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:21 [info]: ::1 - - [09/May/2026:06:19:21 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:49:21 [info]: ::1 - - [09/May/2026:06:19:21 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:50:00 [debug]: Balance cache refresh tick
+2026-05-09 11:50:45 [info]: ::1 - - [09/May/2026:06:20:45 +0000] "POST /api/auth/set-transaction-password HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:50:45 [info]: ::1 - - [09/May/2026:06:20:45 +0000] "GET /api/auth/me HTTP/1.1" 200 3476 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:18 [info]: ::1 - - [09/May/2026:06:21:18 +0000] "POST /api/transactions/initiate HTTP/1.1" 400 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:33 [info]: ::1 - - [09/May/2026:06:21:33 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:33 [info]: ::1 - - [09/May/2026:06:21:33 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:36 [info]: ::1 - - [09/May/2026:06:21:36 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:42 [info]: ::1 - - [09/May/2026:06:21:42 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 818 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:42 [info]: ::1 - - [09/May/2026:06:21:42 +0000] "GET /api/auth/me HTTP/1.1" 200 3306 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:43 [info]: ::1 - - [09/May/2026:06:21:43 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:43 [info]: ::1 - - [09/May/2026:06:21:43 +0000] "GET /api/wallet/stats HTTP/1.1" 200 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:43 [info]: ::1 - - [09/May/2026:06:21:43 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:43 [info]: ::1 - - [09/May/2026:06:21:43 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:51:51 [info]: ::1 - - [09/May/2026:06:21:51 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:01 [info]: ::1 - - [09/May/2026:06:22:01 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:01 [info]: ::1 - - [09/May/2026:06:22:01 +0000] "GET /api/wallet/stats HTTP/1.1" 200 182 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:01 [info]: ::1 - - [09/May/2026:06:22:01 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:02 [info]: ::1 - - [09/May/2026:06:22:02 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:10 [info]: ::1 - - [09/May/2026:06:22:10 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:14 [info]: ::1 - - [09/May/2026:06:22:14 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 842 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:14 [info]: ::1 - - [09/May/2026:06:22:14 +0000] "GET /api/auth/me HTTP/1.1" 200 3476 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:15 [info]: ::1 - - [09/May/2026:06:22:15 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:15 [info]: ::1 - - [09/May/2026:06:22:15 +0000] "GET /api/wallet/stats HTTP/1.1" 200 196 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:15 [info]: ::1 - - [09/May/2026:06:22:15 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:15 [info]: ::1 - - [09/May/2026:06:22:15 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:39 [info]: Risk analysis for 69fece8d41708fbc46b12091: score=60, flags=high_amount,new_recipient
+2026-05-09 11:52:39 [info]: ::1 - - [09/May/2026:06:22:39 +0000] "POST /api/transactions/initiate HTTP/1.1" 200 512 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:52:49 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e847d0sm39242085ad.62 - gsmtp
+2026-05-09 11:52:49 [info]: Transaction OTP sent to mohammedmaaz@demo.com for user 69fece8d41708fbc46b12091
+2026-05-09 11:52:49 [info]: ::1 - - [09/May/2026:06:22:49 +0000] "POST /api/transactions/69fed2af41708fbc46b120a4/verify-tx-password HTTP/1.1" 200 283 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:09 [info]: ::1 - - [09/May/2026:06:23:09 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:09 [info]: ::1 - - [09/May/2026:06:23:09 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:09 [info]: ::1 - - [09/May/2026:06:23:09 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:10 [info]: ::1 - - [09/May/2026:06:23:10 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:13 [info]: ::1 - - [09/May/2026:06:23:13 +0000] "GET /api/auth/sessions HTTP/1.1" 200 639 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:13 [info]: ::1 - - [09/May/2026:06:23:13 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:17 [info]: ::1 - - [09/May/2026:06:23:17 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:17 [info]: ::1 - - [09/May/2026:06:23:17 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:27 [info]: ::1 - - [09/May/2026:06:23:27 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:31 [info]: ::1 - - [09/May/2026:06:23:31 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 842 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:32 [info]: ::1 - - [09/May/2026:06:23:32 +0000] "GET /api/auth/me HTTP/1.1" 200 3476 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:32 [info]: ::1 - - [09/May/2026:06:23:32 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:32 [info]: ::1 - - [09/May/2026:06:23:32 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:32 [info]: ::1 - - [09/May/2026:06:23:32 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:53:33 [info]: ::1 - - [09/May/2026:06:23:33 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:55:00 [debug]: Balance cache refresh tick
+2026-05-09 11:55:25 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:55:25 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:55:40 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:55:40 [info]: Starting in-memory MongoDB fallback...
+2026-05-09 11:55:43 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:58852/
+2026-05-09 11:55:43 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-09 11:55:43 [info]: 🌐 Network: devnet
+2026-05-09 11:55:43 [info]: 📡 Socket.io enabled
+2026-05-09 11:55:43 [info]: ⏱  CRON jobs scheduled
+2026-05-09 11:56:47 [info]: ::1 - - [09/May/2026:06:26:47 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 818 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:56:47 [info]: ::1 - - [09/May/2026:06:26:47 +0000] "GET /api/auth/me HTTP/1.1" 200 3326 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:56:49 [info]: ::1 - - [09/May/2026:06:26:49 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:56:49 [info]: ::1 - - [09/May/2026:06:26:49 +0000] "GET /api/wallet/stats HTTP/1.1" 200 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:56:52 [info]: ::1 - - [09/May/2026:06:26:52 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:56:52 [info]: ::1 - - [09/May/2026:06:26:52 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:39 [info]: ::1 - - [09/May/2026:06:27:39 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:39 [info]: ::1 - - [09/May/2026:06:27:39 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:48 [info]: ::1 - - [09/May/2026:06:27:48 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:48 [info]: ::1 - - [09/May/2026:06:27:48 +0000] "GET /api/auth/me HTTP/1.1" 200 3379 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:48 [info]: ::1 - - [09/May/2026:06:27:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:48 [info]: ::1 - - [09/May/2026:06:27:48 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:48 [info]: ::1 - - [09/May/2026:06:27:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:50 [info]: ::1 - - [09/May/2026:06:27:50 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:57:54 [info]: ::1 - - [09/May/2026:06:27:54 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:58:02 [info]: ::1 - - [09/May/2026:06:28:02 +0000] "GET /api/auth/sessions HTTP/1.1" 200 639 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:58:02 [info]: ::1 - - [09/May/2026:06:28:02 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:58:19 [info]: ::1 - - [09/May/2026:06:28:19 +0000] "POST /api/auth/set-transaction-password HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:58:19 [info]: ::1 - - [09/May/2026:06:28:19 +0000] "GET /api/auth/me HTTP/1.1" 200 3383 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:58:52 [info]: Risk analysis for 69fed3e2c595c0175b02f1a4: score=60, flags=high_amount,new_recipient
+2026-05-09 11:58:52 [info]: ::1 - - [09/May/2026:06:28:52 +0000] "POST /api/transactions/initiate HTTP/1.1" 200 512 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:02 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e35ba2sm45118475ad.50 - gsmtp
+2026-05-09 11:59:02 [info]: Transaction OTP sent to mohammedmaaz@demo.com for user 69fed3e2c595c0175b02f1a4
+2026-05-09 11:59:02 [info]: ::1 - - [09/May/2026:06:29:02 +0000] "POST /api/transactions/69fed424c595c0175b02f1a9/verify-tx-password HTTP/1.1" 200 283 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:27 [info]: OTP bypassed successfully for code 69fed42cc595c0175b02f1aa using master code
+2026-05-09 11:59:27 [info]: ::1 - - [09/May/2026:06:29:27 +0000] "POST /api/transactions/69fed424c595c0175b02f1a9/confirm HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:27 [info]: ::1 - - [09/May/2026:06:29:27 +0000] "GET /api/auth/me HTTP/1.1" 200 3385 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:28 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e6199csm56350485ad.55 - gsmtp
+2026-05-09 11:59:43 [info]: ::1 - - [09/May/2026:06:29:43 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:44 [info]: ::1 - - [09/May/2026:06:29:44 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:44 [info]: ::1 - - [09/May/2026:06:29:44 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:44 [info]: ::1 - - [09/May/2026:06:29:44 +0000] "GET /api/wallet/stats HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:44 [info]: ::1 - - [09/May/2026:06:29:44 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:44 [info]: ::1 - - [09/May/2026:06:29:44 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:56 [info]: ::1 - - [09/May/2026:06:29:56 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:56 [info]: ::1 - - [09/May/2026:06:29:56 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 2132 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:56 [info]: ::1 - - [09/May/2026:06:29:56 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:56 [info]: ::1 - - [09/May/2026:06:29:56 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:59 [info]: ::1 - - [09/May/2026:06:29:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:59 [info]: ::1 - - [09/May/2026:06:29:59 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:59 [info]: ::1 - - [09/May/2026:06:29:59 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 11:59:59 [info]: ::1 - - [09/May/2026:06:29:59 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:00:00 [debug]: Balance cache refresh tick
+2026-05-09 12:03:06 [info]: ::1 - - [09/May/2026:06:33:06 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:09 [info]: ::1 - - [09/May/2026:06:33:09 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 818 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:10 [info]: ::1 - - [09/May/2026:06:33:10 +0000] "GET /api/auth/me HTTP/1.1" 200 3386 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:10 [info]: ::1 - - [09/May/2026:06:33:10 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 130 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:10 [info]: ::1 - - [09/May/2026:06:33:10 +0000] "GET /api/wallet/stats HTTP/1.1" 200 178 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:10 [info]: ::1 - - [09/May/2026:06:33:10 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:10 [info]: ::1 - - [09/May/2026:06:33:10 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:13 [info]: ::1 - - [09/May/2026:06:33:13 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:13 [info]: ::1 - - [09/May/2026:06:33:13 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:31 [info]: ::1 - - [09/May/2026:06:33:31 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:31 [info]: ::1 - - [09/May/2026:06:33:31 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:31 [info]: ::1 - - [09/May/2026:06:33:31 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:03:31 [info]: ::1 - - [09/May/2026:06:33:31 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 12:05:00 [debug]: Balance cache refresh tick
+2026-05-09 12:10:00 [debug]: Balance cache refresh tick
+2026-05-09 12:15:00 [debug]: Balance cache refresh tick
+2026-05-09 12:20:00 [debug]: Balance cache refresh tick
+2026-05-09 12:25:00 [debug]: Balance cache refresh tick
+2026-05-09 12:30:00 [debug]: Balance cache refresh tick
+2026-05-09 12:35:00 [debug]: Balance cache refresh tick
+2026-05-09 12:40:00 [debug]: Balance cache refresh tick
+2026-05-09 12:45:00 [debug]: Balance cache refresh tick
+2026-05-09 12:50:00 [debug]: Balance cache refresh tick
+2026-05-09 12:55:00 [debug]: Balance cache refresh tick
+2026-05-09 13:00:00 [debug]: Balance cache refresh tick
+2026-05-09 13:05:00 [debug]: Balance cache refresh tick
+2026-05-09 13:10:00 [debug]: Balance cache refresh tick
+2026-05-09 13:15:00 [debug]: Balance cache refresh tick
+2026-05-09 13:20:00 [debug]: Balance cache refresh tick
+2026-05-09 13:25:00 [debug]: Balance cache refresh tick
+2026-05-09 13:30:00 [debug]: Balance cache refresh tick
+2026-05-09 13:35:00 [debug]: Balance cache refresh tick
+2026-05-09 13:40:00 [debug]: Balance cache refresh tick
+2026-05-09 18:20:02 [debug]: Balance cache refresh tick
+2026-05-09 18:22:08 [info]: ::1 - - [09/May/2026:12:52:08 +0000] "GET /api/auth/me HTTP/1.1" 401 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:08 [info]: ::1 - - [09/May/2026:12:52:08 +0000] "GET /api/auth/me HTTP/1.1" 401 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "POST /api/auth/refresh-token HTTP/1.1" 200 592 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "POST /api/auth/refresh-token HTTP/1.1" 200 592 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:09 [info]: ::1 - - [09/May/2026:12:52:09 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:17 [info]: ::1 - - [09/May/2026:12:52:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:17 [info]: ::1 - - [09/May/2026:12:52:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:17 [info]: ::1 - - [09/May/2026:12:52:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 126 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:17 [info]: ::1 - - [09/May/2026:12:52:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:17 [info]: ::1 - - [09/May/2026:12:52:17 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:20 [info]: ::1 - - [09/May/2026:12:52:20 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 125 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:21 [info]: ::1 - - [09/May/2026:12:52:21 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:21 [info]: ::1 - - [09/May/2026:12:52:21 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:21 [info]: ::1 - - [09/May/2026:12:52:21 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:21 [info]: ::1 - - [09/May/2026:12:52:21 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 114 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:22 [info]: ::1 - - [09/May/2026:12:52:22 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:23 [info]: ::1 - - [09/May/2026:12:52:23 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:23 [info]: ::1 - - [09/May/2026:12:52:23 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:23 [info]: ::1 - - [09/May/2026:12:52:23 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:23 [info]: ::1 - - [09/May/2026:12:52:23 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:24 [info]: ::1 - - [09/May/2026:12:52:24 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:25 [info]: ::1 - - [09/May/2026:12:52:25 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 127 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:26 [info]: ::1 - - [09/May/2026:12:52:26 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:26 [info]: ::1 - - [09/May/2026:12:52:26 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:26 [info]: ::1 - - [09/May/2026:12:52:26 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:26 [info]: ::1 - - [09/May/2026:12:52:26 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:26 [info]: ::1 - - [09/May/2026:12:52:26 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:27 [info]: ::1 - - [09/May/2026:12:52:27 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:27 [info]: ::1 - - [09/May/2026:12:52:27 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:27 [info]: ::1 - - [09/May/2026:12:52:27 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:22:27 [info]: ::1 - - [09/May/2026:12:52:27 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 18:25:00 [debug]: Balance cache refresh tick
+2026-05-09 18:30:00 [debug]: Balance cache refresh tick
+2026-05-09 18:35:00 [debug]: Balance cache refresh tick
+2026-05-09 18:40:00 [debug]: Balance cache refresh tick
+2026-05-09 18:45:00 [debug]: Balance cache refresh tick
+2026-05-09 18:50:00 [debug]: Balance cache refresh tick
+2026-05-09 18:55:00 [debug]: Balance cache refresh tick
+2026-05-09 19:00:00 [debug]: Balance cache refresh tick
+2026-05-09 19:05:00 [debug]: Balance cache refresh tick
+2026-05-09 19:10:00 [debug]: Balance cache refresh tick
+2026-05-09 19:15:00 [debug]: Balance cache refresh tick
+2026-05-09 19:20:00 [debug]: Balance cache refresh tick
+2026-05-09 19:25:00 [debug]: Balance cache refresh tick
+2026-05-09 19:30:00 [debug]: Balance cache refresh tick
+2026-05-09 19:35:00 [debug]: Balance cache refresh tick
+2026-05-09 19:40:00 [debug]: Balance cache refresh tick
+2026-05-09 19:45:00 [debug]: Balance cache refresh tick
+2026-05-09 19:50:00 [debug]: Balance cache refresh tick
+2026-05-09 19:55:00 [debug]: Balance cache refresh tick
+2026-05-09 20:00:00 [debug]: Balance cache refresh tick
+2026-05-09 20:05:00 [debug]: Balance cache refresh tick
+2026-05-09 20:10:00 [debug]: Balance cache refresh tick
+2026-05-09 20:15:00 [debug]: Balance cache refresh tick
+2026-05-09 20:20:00 [debug]: Balance cache refresh tick
+2026-05-09 20:25:00 [debug]: Balance cache refresh tick
+2026-05-09 20:30:00 [debug]: Balance cache refresh tick
+2026-05-09 20:35:00 [debug]: Balance cache refresh tick
+2026-05-09 20:40:00 [debug]: Balance cache refresh tick
+2026-05-09 20:50:00 [debug]: Balance cache refresh tick
+2026-05-09 20:55:00 [debug]: Balance cache refresh tick
+2026-05-09 21:00:00 [debug]: Balance cache refresh tick
+2026-05-09 21:05:00 [debug]: Balance cache refresh tick
+2026-05-09 21:10:00 [debug]: Balance cache refresh tick
+2026-05-09 21:15:00 [debug]: Balance cache refresh tick
+2026-05-09 21:20:00 [debug]: Balance cache refresh tick
+2026-05-09 21:25:00 [debug]: Balance cache refresh tick
+2026-05-09 21:30:00 [debug]: Balance cache refresh tick
+2026-05-09 21:35:00 [debug]: Balance cache refresh tick
+2026-05-09 21:40:00 [debug]: Balance cache refresh tick
+2026-05-09 21:45:00 [debug]: Balance cache refresh tick
+2026-05-09 21:47:26 [info]: ::1 - - [09/May/2026:16:17:26 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 842 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:26 [info]: ::1 - - [09/May/2026:16:17:26 +0000] "GET /api/auth/me HTTP/1.1" 200 3444 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:26 [info]: ::1 - - [09/May/2026:16:17:26 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:26 [info]: ::1 - - [09/May/2026:16:17:26 +0000] "GET /api/wallet/stats HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:26 [info]: ::1 - - [09/May/2026:16:17:26 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:27 [info]: ::1 - - [09/May/2026:16:17:27 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:37 [info]: ::1 - - [09/May/2026:16:17:37 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:37 [info]: ::1 - - [09/May/2026:16:17:37 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:38 [info]: ::1 - - [09/May/2026:16:17:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:38 [info]: ::1 - - [09/May/2026:16:17:38 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:50 [info]: ::1 - - [09/May/2026:16:17:50 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:50 [info]: ::1 - - [09/May/2026:16:17:50 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:52 [info]: ::1 - - [09/May/2026:16:17:52 +0000] "GET /api/auth/sessions HTTP/1.1" 200 639 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:52 [info]: ::1 - - [09/May/2026:16:17:52 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:54 [info]: ::1 - - [09/May/2026:16:17:54 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:54 [info]: ::1 - - [09/May/2026:16:17:54 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:54 [info]: ::1 - - [09/May/2026:16:17:54 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:54 [info]: ::1 - - [09/May/2026:16:17:54 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:59 [info]: ::1 - - [09/May/2026:16:17:59 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:47:59 [info]: ::1 - - [09/May/2026:16:17:59 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:48:07 [info]: ::1 - - [09/May/2026:16:18:07 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:48:07 [info]: ::1 - - [09/May/2026:16:18:07 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:48:07 [info]: ::1 - - [09/May/2026:16:18:07 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:48:07 [info]: ::1 - - [09/May/2026:16:18:07 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 21:50:00 [debug]: Balance cache refresh tick
+2026-05-09 21:55:00 [debug]: Balance cache refresh tick
+2026-05-09 22:00:00 [debug]: Balance cache refresh tick
+2026-05-09 22:01:01 [info]: ::1 - - [09/May/2026:16:31:01 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:01 [info]: ::1 - - [09/May/2026:16:31:01 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:13 [info]: ::1 - - [09/May/2026:16:31:13 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:13 [info]: ::1 - - [09/May/2026:16:31:13 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:21 [info]: ::1 - - [09/May/2026:16:31:21 +0000] "DELETE /api/auth/sessions/69ff5e16c595c0175b02f1ba HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:21 [info]: ::1 - - [09/May/2026:16:31:21 +0000] "GET /api/auth/sessions HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:25 [info]: ::1 - - [09/May/2026:16:31:25 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:25 [info]: ::1 - - [09/May/2026:16:31:25 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:25 [info]: ::1 - - [09/May/2026:16:31:25 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:25 [info]: ::1 - - [09/May/2026:16:31:25 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:35 [info]: ::1 - - [09/May/2026:16:31:35 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:35 [info]: ::1 - - [09/May/2026:16:31:35 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:35 [info]: ::1 - - [09/May/2026:16:31:35 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:01:36 [info]: ::1 - - [09/May/2026:16:31:36 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-09 22:05:00 [debug]: Balance cache refresh tick
+2026-05-09 22:10:00 [debug]: Balance cache refresh tick
+2026-05-09 22:15:00 [debug]: Balance cache refresh tick
+2026-05-09 22:20:00 [debug]: Balance cache refresh tick
+2026-05-09 22:25:00 [debug]: Balance cache refresh tick
+2026-05-09 22:30:00 [debug]: Balance cache refresh tick
+2026-05-09 22:35:00 [debug]: Balance cache refresh tick
+2026-05-09 22:40:00 [debug]: Balance cache refresh tick
+2026-05-09 22:45:00 [debug]: Balance cache refresh tick
+2026-05-09 22:50:00 [debug]: Balance cache refresh tick
+2026-05-09 22:55:00 [debug]: Balance cache refresh tick
+2026-05-09 23:00:00 [debug]: Balance cache refresh tick
+2026-05-09 23:05:00 [debug]: Balance cache refresh tick
+2026-05-09 23:10:00 [debug]: Balance cache refresh tick
+2026-05-09 23:15:00 [debug]: Balance cache refresh tick
+2026-05-09 23:20:00 [debug]: Balance cache refresh tick
+2026-05-09 23:25:00 [debug]: Balance cache refresh tick
+2026-05-09 23:30:00 [debug]: Balance cache refresh tick
+2026-05-09 23:35:00 [debug]: Balance cache refresh tick
+2026-05-09 23:38:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-05-09 23:40:00 [debug]: Balance cache refresh tick
+2026-05-19 11:34:15 [warn]: Failed to connect to primary MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-19 11:34:15 [info]: Starting in-memory MongoDB fallback...
+2026-05-19 11:34:19 [info]: In-Memory MongoDB Connected: mongodb://127.0.0.1:61638/
+2026-05-19 11:34:19 [info]: 🚀 CryptoVault backend running on http://localhost:5000
+2026-05-19 11:34:19 [info]: 🌐 Network: devnet
+2026-05-19 11:34:19 [info]: 📡 Socket.io enabled
+2026-05-19 11:34:19 [info]: ⏱  CRON jobs scheduled
+2026-05-19 11:35:00 [debug]: Balance cache refresh tick
+2026-05-19 11:35:39 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:35:39 [info]: ::1 - - [19/May/2026:06:05:39 +0000] "GET / HTTP/1.1" 404 1314 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-19 11:35:40 [error]: Error: Route not found: /favicon.ico
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:35:40 [info]: ::1 - - [19/May/2026:06:05:40 +0000] "GET /favicon.ico HTTP/1.1" 404 1336 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-19 11:36:03 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:03 [info]: ::1 - - [19/May/2026:06:06:03 +0000] "GET / HTTP/1.1" 404 1314 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-19 11:36:13 [error]: Error: Route not found: /
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:13 [info]: ::1 - - [19/May/2026:06:06:13 +0000] "GET / HTTP/1.1" 404 1314 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-19 11:36:14 [error]: Error: Route not found: /favicon.ico
+    at notFound (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\src\middleware\errorHandler.js:53:15)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handleRequest (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Moham\OneDrive\Desktop\DBMS MINI PROJECT\backend\node_modules\router\index.js:297:9
+2026-05-19 11:36:14 [info]: ::1 - - [19/May/2026:06:06:14 +0000] "GET /favicon.ico HTTP/1.1" 404 1336 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0"
+2026-05-19 11:38:02 [info]: ::1 - - [19/May/2026:06:08:02 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:38:02 [info]: ::1 - - [19/May/2026:06:08:02 +0000] "GET /api/auth/me HTTP/1.1" 200 3343 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:38:02 [info]: ::1 - - [19/May/2026:06:08:02 +0000] "GET /api/wallet/stats HTTP/1.1" 200 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:38:02 [info]: ::1 - - [19/May/2026:06:08:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 101 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:38:02 [info]: ::1 - - [19/May/2026:06:08:02 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:38:03 [info]: ::1 - - [19/May/2026:06:08:03 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:40:00 [debug]: Balance cache refresh tick
+2026-05-19 11:41:38 [info]: ::1 - - [19/May/2026:06:11:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:38 [info]: ::1 - - [19/May/2026:06:11:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:38 [info]: ::1 - - [19/May/2026:06:11:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:39 [info]: ::1 - - [19/May/2026:06:11:39 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:39 [info]: ::1 - - [19/May/2026:06:11:39 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:39 [info]: ::1 - - [19/May/2026:06:11:39 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:41:45 [info]: ::1 - - [19/May/2026:06:11:45 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "GET /api/auth/me HTTP/1.1" 200 3402 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:50 [info]: ::1 - - [19/May/2026:06:12:50 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:42:57 [info]: ::1 - - [19/May/2026:06:12:57 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:10 [info]: ::1 - - [19/May/2026:06:13:10 +0000] "GET /api/wallet/stats HTTP/1.1" 200 182 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:10 [info]: ::1 - - [19/May/2026:06:13:10 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:10 [info]: ::1 - - [19/May/2026:06:13:10 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:10 [info]: ::1 - - [19/May/2026:06:13:10 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:35 [info]: ::1 - - [19/May/2026:06:13:35 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "GET /api/auth/me HTTP/1.1" 200 3407 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:43:42 [info]: ::1 - - [19/May/2026:06:13:42 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:16 [info]: ::1 - - [19/May/2026:06:14:16 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:18 [info]: ::1 - - [19/May/2026:06:14:18 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 886 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "GET /api/auth/me HTTP/1.1" 200 3414 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "GET /api/wallet/stats HTTP/1.1" 200 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:30 [info]: ::1 - - [19/May/2026:06:14:30 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:44:52 [info]: ::1 - - [19/May/2026:06:14:52 +0000] "POST /api/wallet/add-funds HTTP/1.1" 200 112 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:45:00 [debug]: Balance cache refresh tick
+2026-05-19 11:45:32 [info]: ::1 - - [19/May/2026:06:15:32 +0000] "GET /api/auth/sessions HTTP/1.1" 200 625 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:45:32 [info]: ::1 - - [19/May/2026:06:15:32 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:02 [info]: ::1 - - [19/May/2026:06:16:02 +0000] "POST /api/auth/set-transaction-password HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:02 [info]: ::1 - - [19/May/2026:06:16:02 +0000] "GET /api/auth/me HTTP/1.1" 200 3418 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:15 [info]: ::1 - - [19/May/2026:06:16:15 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:15 [info]: ::1 - - [19/May/2026:06:16:15 +0000] "GET /api/wallet/stats HTTP/1.1" 200 182 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:15 [info]: ::1 - - [19/May/2026:06:16:15 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:15 [info]: ::1 - - [19/May/2026:06:16:15 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:39 [info]: ::1 - - [19/May/2026:06:16:39 +0000] "POST /api/transactions/initiate HTTP/1.1" 400 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:44 [info]: ::1 - - [19/May/2026:06:16:44 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:44 [info]: ::1 - - [19/May/2026:06:16:44 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:44 [info]: ::1 - - [19/May/2026:06:16:44 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:46:44 [info]: ::1 - - [19/May/2026:06:16:44 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:08 [info]: ::1 - - [19/May/2026:06:17:08 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:08 [info]: ::1 - - [19/May/2026:06:17:08 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:08 [info]: ::1 - - [19/May/2026:06:17:08 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:08 [info]: ::1 - - [19/May/2026:06:17:08 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:19 [info]: ::1 - - [19/May/2026:06:17:19 +0000] "POST /api/transactions/initiate HTTP/1.1" 400 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:38 [info]: ::1 - - [19/May/2026:06:17:38 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:38 [info]: ::1 - - [19/May/2026:06:17:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:38 [info]: ::1 - - [19/May/2026:06:17:38 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:38 [info]: ::1 - - [19/May/2026:06:17:38 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:48 [info]: ::1 - - [19/May/2026:06:17:48 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:51 [info]: ::1 - - [19/May/2026:06:17:51 +0000] "POST /api/auth/logout HTTP/1.1" 200 62 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "POST /api/auth/simple-login HTTP/1.1" 200 843 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "GET /api/auth/me HTTP/1.1" 200 3407 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:47:55 [info]: ::1 - - [19/May/2026:06:17:55 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:00 [info]: ::1 - - [19/May/2026:06:18:00 +0000] "GET /api/auth/sessions HTTP/1.1" 200 625 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:00 [info]: ::1 - - [19/May/2026:06:18:00 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:10 [info]: ::1 - - [19/May/2026:06:18:10 +0000] "POST /api/auth/set-transaction-password HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:10 [info]: ::1 - - [19/May/2026:06:18:10 +0000] "GET /api/auth/me HTTP/1.1" 200 3406 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:31 [info]: ::1 - - [19/May/2026:06:18:31 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:31 [info]: ::1 - - [19/May/2026:06:18:31 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:39 [info]: ::1 - - [19/May/2026:06:18:39 +0000] "POST /api/auth/set-transaction-password HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:39 [info]: ::1 - - [19/May/2026:06:18:39 +0000] "GET /api/auth/me HTTP/1.1" 200 3406 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:48:54 [info]: ::1 - - [19/May/2026:06:18:54 +0000] "POST /api/transactions/initiate HTTP/1.1" 400 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:04 [info]: ::1 - - [19/May/2026:06:19:04 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:04 [info]: ::1 - - [19/May/2026:06:19:04 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:04 [info]: ::1 - - [19/May/2026:06:19:04 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:04 [info]: ::1 - - [19/May/2026:06:19:04 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:21 [info]: Risk analysis for 6a0bfe3e32af01bd5fc64959: score=45, flags=high_amount,new_recipient
+2026-05-19 11:49:21 [info]: ::1 - - [19/May/2026:06:19:21 +0000] "POST /api/transactions/initiate HTTP/1.1" 200 546 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:49:46 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-83f19c7788esm20478079b3a.42 - gsmtp
+2026-05-19 11:49:46 [info]: Transaction OTP sent to mohammedmaaz@demo.com for user 6a0bfe3e32af01bd5fc64959
+2026-05-19 11:49:46 [info]: ::1 - - [19/May/2026:06:19:46 +0000] "POST /api/transactions/6a0c00e932af01bd5fc6496b/verify-tx-password HTTP/1.1" 200 283 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:00 [debug]: Balance cache refresh tick
+2026-05-19 11:50:08 [info]: OTP bypassed successfully for code 6a0c00f632af01bd5fc6496c using master code
+2026-05-19 11:50:08 [info]: ::1 - - [19/May/2026:06:20:08 +0000] "POST /api/transactions/6a0c00e932af01bd5fc6496b/confirm HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:08 [info]: ::1 - - [19/May/2026:06:20:08 +0000] "GET /api/auth/me HTTP/1.1" 200 3408 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:11 [error]: Email send failed to mohammedmaaz@demo.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c82bb0ff0edsm15950920a12.20 - gsmtp
+2026-05-19 11:50:13 [info]: ::1 - - [19/May/2026:06:20:13 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 2131 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:13 [info]: ::1 - - [19/May/2026:06:20:13 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:59 [info]: ::1 - - [19/May/2026:06:20:59 +0000] "GET /api/auth/sessions HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:50:59 [info]: ::1 - - [19/May/2026:06:20:59 +0000] "GET /api/auth/sessions HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:09 [info]: ::1 - - [19/May/2026:06:21:09 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:09 [info]: ::1 - - [19/May/2026:06:21:09 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:15 [info]: ::1 - - [19/May/2026:06:21:15 +0000] "GET /api/auth/me HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:15 [info]: ::1 - - [19/May/2026:06:21:15 +0000] "GET /api/auth/me HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:18 [info]: ::1 - - [19/May/2026:06:21:18 +0000] "POST /api/auth/simple-login HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:26 [info]: ::1 - - [19/May/2026:06:21:26 +0000] "POST /api/auth/simple-login HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:32 [info]: ::1 - - [19/May/2026:06:21:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:32 [info]: ::1 - - [19/May/2026:06:21:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:36 [info]: ::1 - - [19/May/2026:06:21:36 +0000] "GET /api/auth/me HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:36 [info]: ::1 - - [19/May/2026:06:21:36 +0000] "GET /api/auth/me HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:51:39 [info]: ::1 - - [19/May/2026:06:21:39 +0000] "POST /api/auth/simple-login HTTP/1.1" 429 72 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/auth/me HTTP/1.1" 200 3408 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/wallet/stats HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 200 197 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:08 [info]: ::1 - - [19/May/2026:06:23:08 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:22 [info]: ::1 - - [19/May/2026:06:23:22 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 2131 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:22 [info]: ::1 - - [19/May/2026:06:23:22 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:24 [info]: ::1 - - [19/May/2026:06:23:24 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:24 [info]: ::1 - - [19/May/2026:06:23:24 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:24 [info]: ::1 - - [19/May/2026:06:23:24 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:53:24 [info]: ::1 - - [19/May/2026:06:23:24 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 11:55:00 [debug]: Balance cache refresh tick
+2026-05-19 12:00:00 [debug]: Balance cache refresh tick
+2026-05-19 12:01:32 [info]: ::1 - - [19/May/2026:06:31:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:01:32 [info]: ::1 - - [19/May/2026:06:31:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:01:35 [info]: ::1 - - [19/May/2026:06:31:35 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:01:35 [info]: ::1 - - [19/May/2026:06:31:35 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:01:35 [info]: ::1 - - [19/May/2026:06:31:35 +0000] "GET /api/transactions/analytics?days=7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:01:35 [info]: ::1 - - [19/May/2026:06:31:35 +0000] "GET /api/wallet/stats HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:05:00 [debug]: Balance cache refresh tick
+2026-05-19 12:10:00 [debug]: Balance cache refresh tick
+2026-05-19 12:15:00 [debug]: Balance cache refresh tick
+2026-05-19 12:20:00 [debug]: Balance cache refresh tick
+2026-05-19 12:25:00 [debug]: Balance cache refresh tick
+2026-05-19 12:44:34 [info]: ::1 - - [19/May/2026:07:14:34 +0000] "GET /api/auth/me HTTP/1.1" 401 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:44:34 [info]: ::1 - - [19/May/2026:07:14:34 +0000] "GET /api/auth/me HTTP/1.1" 401 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:44:34 [info]: ::1 - - [19/May/2026:07:14:34 +0000] "POST /api/auth/refresh-token HTTP/1.1" 200 592 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:44:34 [info]: ::1 - - [19/May/2026:07:14:34 +0000] "POST /api/auth/refresh-token HTTP/1.1" 401 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 12:44:35 [info]: ::1 - - [19/May/2026:07:14:35 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-19 13:11:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-05-19 13:15:00 [debug]: Balance cache refresh tick
+2026-05-19 13:20:00 [debug]: Balance cache refresh tick
+2026-05-19 13:25:00 [debug]: Balance cache refresh tick
+2026-05-19 13:36:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-05-19 13:40:00 [debug]: Balance cache refresh tick
+2026-05-19 13:45:00 [debug]: Balance cache refresh tick
+2026-05-19 13:50:00 [debug]: Balance cache refresh tick
